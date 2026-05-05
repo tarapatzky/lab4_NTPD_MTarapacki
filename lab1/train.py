@@ -24,4 +24,4 @@ predictions = model.predict(X_test)
 accuracy = accuracy_score(y_test, predictions)
 print(f"Accuracy: {accuracy:.2f}")
 
-joblib.dump(model, 'model_v1.joblib')
+joblib.dump(model, '../model_v1.joblib')
