@@ -15,8 +15,8 @@ Celem projektu było umieszczenie aplikacji API (FastAPI) wraz z modelem ML (kla
 2. Uruchom kontener: `docker run -p 8000:8000 ml-api`
 
 ### 3. Za pomocą Docker Compose (Zalecane)
-1. Uruchom cały stos technologiczny (API + Redis): `docker-compose up --build`[cite: 3]
+1. Uruchom cały stos technologiczny (API + Redis): `docker-compose up --build`
 
 ## Konfiguracja i zasoby
 - **Porty**: API nasłuchuje na porcie 8000, Redis na 6379[cite: 3].
-- **Zasoby**: Projekt wymaga środowiska Python 3.9-slim (określone w Dockerfile)[cite: 3].
+- **Zasoby**: Projekt wymaga środowiska Python 3.9-slim (określone w Dockerfile)
